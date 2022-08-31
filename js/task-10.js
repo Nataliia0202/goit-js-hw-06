@@ -36,4 +36,5 @@ console.log(inputNumber.value);
 
 btnDestroy.addEventListener("click", () => {
   destroyBoxes.call();
+  inputNumber.value = "";
 });
